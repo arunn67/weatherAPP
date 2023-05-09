@@ -158,8 +158,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
     @IBAction func nextpage(_ sender: Any) {
-        let push = storyboard?.instantiateViewController(withIdentifier: "nextdaysViewController") as! nextdaysViewController
-        self.navigationController?.pushViewController(push, animated: true)
+//        let push = storyboard?.instantiateViewController(withIdentifier: "nextdaysViewController") as! nextdaysViewController
+//        self.navigationController?.pushViewController(push, animated: true)
     }
     
 
